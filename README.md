@@ -42,5 +42,3 @@ The first and mandatory argument is the name of the file containing the crosswor
 * Dictionary data structure: A dictionary data structure is used to store and search through the vocabulary words that will be used to fill in the crossword puzzle.
 * Constraint satisfaction: The program uses constraints such as the length of the words and the letters that they can intersect with to narrow down the possible solutions and increase the efficiency of the search. Additionally, the program uses forward checking to further constraint the possible solutions by checking the validity of the word choices before they are tried in the backtracking process.
 
-## Note
-This is my first large project written in C, may contain some suboptimal code structure and practices.
