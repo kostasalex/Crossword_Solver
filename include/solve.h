@@ -1,0 +1,12 @@
+typedef struct words *ptrwords;
+void   Solve(char **crossword, int pathsize);
+void   MissingLetters(ptrwords path, char direction , char **crossword);
+int    FindWord(int prevw, int wlen, char *letters);
+void   putword(ptrwords path, char direction, char *word, char **crossword);
+int    ForwardCheck(char **crossword, int step);
+int    GoBack(int step,char **crossword);
+int    check(char **argv, char **crossword);
+int    draw(char **argv ,char **crossword);
+int    wordscore(char **crossword, int step);
+int    RandomWord(char **argv);
+int    StartAgain(char ** crossword, int step,int pathsize);

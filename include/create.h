@@ -1,0 +1,11 @@
+char **GetCrossword(char *argv);        
+FILE  *GetDictionary(char **argv);
+int   *CrosswordInfo(char **crossword);
+int    CreateMyDict(int *wordlen, FILE *fdictionary);
+char **DublicateCrossword(char **across_cw);
+int    CreatePath(int pathsize, char **across_cw, char **down_cw);
+void   ResetCrossword(char **crossword);
+void   PrintCrossword(char **crossword);
+static int strcompare(const void * a, const void * b);
+void   FreeDict(int maxlen);
+void   FreeWords(void);
