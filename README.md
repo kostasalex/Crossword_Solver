@@ -1,5 +1,5 @@
 # Crossword Solver
-A crossword puzzle generator that takes a text file describing an empty crossword grid and a dictionary of words as input, and outputs a completed crossword puzzle. The program uses various techniques to fill in the grid, such as backtracking and constraint satisfaction.
+A crossword puzzle generator that takes an empty crossword grid and a dictionary of words as input, and outputs a completed crossword puzzle. The program uses various techniques to fill in the grid, such as backtracking and constraint satisfaction.
 
 
 ## Inputs
